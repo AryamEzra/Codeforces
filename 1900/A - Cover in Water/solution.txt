@@ -1,0 +1,13 @@
+n = int(input())
+for _ in range(n):
+    l = int(input())
+    s = input()
+    if "..." in s:
+        print(2)
+    else:
+        count = 0
+        for c in s:
+            if c == ".":
+                count += 1
+        print(count)
+            
